@@ -1,0 +1,26 @@
+.content{
+    &_div{
+        border: solid purple 1px;
+        margin: 10px auto;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+.daily{
+    &_item{
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 90%;
+        text-align: center;
+    }
+}
+.current{
+    &_div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+}
